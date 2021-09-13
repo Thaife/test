@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* * {
+            margin: 0;
+            padding:0
+        }
+        #list {
+            list-style-type: none;
+            margin-bottom: 40px;
+            margin-left: 40px;
+        }
+        #list li {
+            margin: 20px 0;
+        }
+        input:focus{
+            outline: none;
+        } */
+        * {
+            margin: 0;
+            padding: 0;
+    
+        .list__item:hover {
+            background-color: pink;
+        }
+        .list__item:hover .list-child {
+            display: block;
+        }
+
+
+        .list-child {
+            position: absolute;
+            display: none;
+            top: 100%;
+            left: 0
+        }
+    </style>
+</head>
+<body>
+    <!-- <h2>Danh sách khóa học</h2>
+    <div id="list">
+    </div>
+
+    <div class="form-name">
+        <label for="">Name</label>
+        <input type="text" name="name">
+    </div>
+
+
+
+	them
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
